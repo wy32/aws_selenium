@@ -29,3 +29,4 @@ local.properties
 
 #Mac Files
 .DS_Store
+/target/
