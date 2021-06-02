@@ -17,7 +17,7 @@ public class FirstTest {
         WebDriver driver;
         System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
         ChromeOptions options = new ChromeOptions();
-        //options.addArguments("headless");
+        options.addArguments("headless");
         driver = new ChromeDriver(options);
         driver.get("https://www.google.com");
         System.out.println(driver.getTitle());
